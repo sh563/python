@@ -1,0 +1,56 @@
+
+
+# Exercise : Develop a code that reads three integers from user and prints out the maximum of the numbers.
+#Required Time:10 mintus
+
+y=int(input("Enter the number : "))
+z=int(input("enter the second number:"))
+v=int(input("Enter the Third Number : "))
+
+b=max(y,z,v)
+print("The maximum number is : " + str(b))
+
+
+
+
+---------------------------------------------------------------------
+
+
+
+
+
+# Exercise : Develop a code that reads three integers from user and prints out the maximum of the numbers.
+#Required Time:10 mintus
+# Develop the code that take in three integer and prints out if they belong to a right triangle.(extra with previous).
+
+y=int(input("Enter the number : "))
+z=int(input("enter the second number:"))
+v=int(input("Enter the Third Number : "))
+
+if(y==z and y==v):
+    print(str(y) + "is the maximum")
+if(y>z and y>v):
+    print(str(y) + "is the maximum")
+if(z>y and z>v):
+    print(str(z) + "is the number")
+if (v>y and v>z):
+    print(str(v) + "is the maximum number")
+
+if(y**2 == z**2 + v**2) or (z^2 == y^2 + v^2) or (v^2 == z^2 +y^2):
+ print("yes,they belong to right triangle ")
+else:
+    print ("no, they don't belong to right triangle")
+    
+    
+    -------------------------------
+    
+    # Home exercise : Develop a code that reads one integer from user and prints all prime numbers between 1 and that integer 
+# Example; read 20,output,
+
+
+
+
+
+
+
+
